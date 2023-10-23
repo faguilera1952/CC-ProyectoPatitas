@@ -28,4 +28,4 @@ Constaría de dos tipos de usuarios:
 En esta sección irá todo lo referente a la configuración y licencia del proyecto.
 
 1. [Licencia](/LICENSE)
-2. [Configuración del entorno](/)
+2. [Configuración del entorno](/docs/Environment_Setup.md)
