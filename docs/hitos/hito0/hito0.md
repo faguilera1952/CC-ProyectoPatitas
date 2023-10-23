@@ -19,10 +19,13 @@ Constaría de dos tipos de usuarios:
 
 ### Nombre del proyecto
 
-# :page: Patitas :page:
+# :book: Patitas :book:
 
 <a name="Additional"></a>
 
 ## Documentación Adicional
 
-En esta sección irá todo los referente al setup del proyecto.
+En esta sección irá todo lo referente a la configuración y licencia del proyecto.
+
+1. [Licencia](/LICENSE)
+2. [Configuración del entorno](/)
