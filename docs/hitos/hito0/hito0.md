@@ -14,8 +14,8 @@ Una página web bien diseñada y gestionada puede ser una herramienta eficaz par
 
 Constaría de dos tipos de usuarios:
 
-- Un usuario administrador el cual podrá realizar funciones de actualización de la web.
-- El usuario final que es quien entra a la web e interactua en ella buscando animales domésticos en adopción.
+- Un usuario administrador el cual podrá realizar funciones de actualización del entorno web.
+- El usuario final, quien entra a la web e interactua en ella en búsqueda de animales domésticos en adopción.
 
 ### Nombre del proyecto
 
@@ -28,4 +28,4 @@ Constaría de dos tipos de usuarios:
 En esta sección irá todo lo referente a la configuración y licencia del proyecto.
 
 1. [Licencia](/LICENSE)
-2. [Configuración del entorno](/docs/Environment_Setup.md)
+2. [Configuración del entorno](/Environment_Setup.md)
