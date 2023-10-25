@@ -10,11 +10,11 @@ En muchas áreas, los refugios de animales están abarrotados debido a la llegad
 
 ### Posible Solución
 
-Una página web bien diseñada y gestionada puede ser una herramienta eficaz para ayudar a estos animalitos a encontrar un hogar que les acoja y les cuide, además de crear un impacto positivo en la comunidad. Para llevar a cabo este desarrollo, la aplicación tendrá la pantalla de inicio, otra pantalla de búsqueda de animales permitiendo a los usuarios explorar los perfiles de animales en adopción. Otro enlace para detalles de adopción, donde el usuario puede obtener más detalles y seguir el proceso de adopción. Otra página que sirva de blog donde se promocione contenido educativo orientado a la adopción responsable. Permitir que los usuarios puedan crear cuentas y registrar sus perfiles. Puede tener también una pantalla para donación o patrocinio, de voluntariado y colaboración.
+Una página web bien diseñada y gestionada puede ser una herramienta eficaz para ayudar a estos animalitos a encontrar un hogar que les acoja y les cuide, además de generar un impacto positivo en la comunidad. Para llevar a cabo este desarrollo, la aplicación tendrá la pantalla de inicio, permitirá la búsqueda de animales donde los usuarios puedan explorar los perfiles de animales ver los detalles de adopción, y seguir el proceso. Además de tener otra pantalla que sirva de blog donde se promocione contenido educativo orientado a la adopción responsable. Permitir que los usuarios puedan crear cuentas y registrar sus perfiles. Puede tener también una pantalla para donación o patrocinio, de voluntariado y colaboración.
 
 Constaría de dos tipos de usuarios:
 
-- Un usuario administrador el cual podrá realizar funciones de actualización del entorno web.
+- Un usuario administrador el cual podrá realizar funciones de actualización y administración del entorno web.
 - El usuario final, quien entra a la web e interactua en ella en búsqueda de animales domésticos en adopción.
 
 ### Nombre del proyecto
