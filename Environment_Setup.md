@@ -14,7 +14,7 @@ Actualización de la imagen del perfil de mi cuenta en GiHub.
 
 ### Configuración de usuario y correo electrónico:
 
-Se configura un nombre de usuario y una dirección de mail via comandos Git para asociarlo a la cuenta GitHub:
+Se configura un nombre de usuario y una dirección de correo via comandos Git para asociarlo a la cuenta GitHub:
 
 ```
 $ git config --global user.name "Francisco Aguilera Martínez"
