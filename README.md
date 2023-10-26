@@ -9,6 +9,6 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 ## :pencil2: Descripción del problema
 
-- En el siguiente enlace se podrá acceder al [Hito 0](docs/hitos/hito0.md) donde se explica la lógica del proyecto.
+- En el siguiente enlace se podrá acceder al [Hito 0](docs/hitos/hito0/hito0.md) donde se explica la lógica del proyecto.
 
 ![perrogato](/docs/img/perro_gato.png)
