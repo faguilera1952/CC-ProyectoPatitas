@@ -1,6 +1,6 @@
 lenguaje:
   - python
 entidad:
-  - src/user.py
+  - src/users/profile.py
 test:
   - test/tests.py
