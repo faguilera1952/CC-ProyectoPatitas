@@ -41,7 +41,7 @@ Se realizará la planificación del proyecto en diferentes _milestones_ definido
 
 La estructura inicial del proyecto contendrá la siguiente entidad:
 
-- **Profile**: Es el tipo de usuario que accede al sistema, puede ser un perfil administrador o un usuario [fichero](src/users/profile.py)
+- **Profile**: Es el tipo de usuario que accede al sistema, puede ser un perfil administrador o un usuario [fichero](/src/users/profile.py).
 
 <a name="framework"></a>
 
