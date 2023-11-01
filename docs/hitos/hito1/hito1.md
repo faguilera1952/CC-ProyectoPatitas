@@ -33,19 +33,15 @@ Se realizará la planificación del proyecto en diferentes _milestones_ definido
 - [Hito 4: Integración continua.](https://github.com/faguilera1952/CC-ProyectoPatitas/milestone/4)
 - [Hito 5: Creación del servicio.](https://github.com/faguilera1952/CC-ProyectoPatitas/milestone/5)
 - [Hito 6: Preparación de un servicio con contenedores.](https://github.com/faguilera1952/CC-ProyectoPatitas/milestone/6)
--[Hito 7: Despliegue](https://github.com/faguilera1952/CC-ProyectoPatitas/milestone/7)
+- [Hito 7: Despliegue](https://github.com/faguilera1952/CC-ProyectoPatitas/milestone/7)
 
 <a name="initialStructure"></a>
 
 ## Estructura inicial del proyecto
 
-La estructura inicial del proyecto contendrá las siguientes clases o entidades:
+La estructura inicial del proyecto contendrá la siguiente entidad:
 
-- **Profile**: xxx [fichero](./../../backend/src/modules/users/nnn).
-- **User**: xxx [fichero](./../../backend/src/modules/users/nnn).
-- **Book**: xxx [fichero](./../../backend/src/modules/books/nnnn).
-
-<!-- Books: Guarda toda la información obtenida del archivo JSON además de funcionalidades básicas. Se encuentra definida en el [fichero](/libs/entity-data-models/src/entities/crud.entity.ts).-->
+- **Profile**: Es el tipo de usuario que accede al sistema, puede ser un perfil administrador o un usuario [fichero](src/users/profile.py)
 
 <a name="framework"></a>
 

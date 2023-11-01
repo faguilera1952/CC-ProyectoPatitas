@@ -1,0 +1,6 @@
+lenguaje:
+  - python
+entidad:
+  - src/user.py
+test:
+  - test/tests.py
