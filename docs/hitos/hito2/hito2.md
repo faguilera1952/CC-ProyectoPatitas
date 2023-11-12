@@ -4,22 +4,22 @@
 
 Para llevar a cabo la realización de este proyecto, se usará "invoke" como gestor de tareas.  
 
-## invoke
+## `invoke`
 
 Es una herramienta en Python que se utiliza como un gestor de tareas o un sistema de automatización de tareas Proporcionar una manera simple y flexible de ejecutar comandos en la línea de comandos de manera programática, lo que es especialmente útil para la automatización de tareas en proyectos de desarrollo.
 
 ## Biblioteca de aserciones
 
-Pytest proporciona la biblioteca de aserciones. Pytest utiliza el método "assert" para realizar las aserciones en las pruebas. En los bloques assert se están verificando varias condiciones y, si alguna de ellas falla, pytest informará sobre el error y detendrá la ejecución de las pruebas.
+Pytest proporciona la [biblioteca de aserciones](test_profile.py). Pytest utiliza el método "assert" para realizar las aserciones en las pruebas. En los bloques assert se están verificando varias condiciones y, si alguna de ellas falla, pytest informará sobre el error y detendrá la ejecución de las pruebas.
 
 ```
 assert len(profile.animals_for_adoption) == 1
 assert profile.animals_for_adoption[0] == animal
 ```
 
-## pytest
+## `pytest`
 
-Pytest es un marco de prueba unitaria para Python. Se utiliza específicamente para escribir y ejecutar pruebas unitarias y de integración en proyectos.
+[Pytest](pytest.py) es un marco de prueba unitaria para Python. Se utiliza específicamente para escribir y ejecutar pruebas unitarias y de integración en proyectos.
 
 ```
 pytest
