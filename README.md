@@ -15,5 +15,9 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 - En el siguiente enlace se podrá acceder al [Hito 1](docs/hitos/hito1/hito1.md) donde se desarrollan las historias de usuario e hitos y la implementación de alguna de las clases el proyecto.
 
+## :computer: Desarrollo y Ejecución de los tests:
+
+- En el enlace siguiente se puede acceder al [Hito 2](docs/hitos/hito2/hito2.md) donde se define todo el proceso de desarrollo y configuración de los tests unitarios.
+
 
 ![perrogato](/docs/img/perro_gato.png)

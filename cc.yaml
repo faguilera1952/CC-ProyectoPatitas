@@ -1,6 +1,8 @@
 lenguaje:
   - python
 entidad:
-  - src/users/profile.py
+  - src/users/animal_profile.py
 test:
-  - test/tests.py
+  - test/tests_profile.py
+fichero_tareas: 
+  - tasks.py
