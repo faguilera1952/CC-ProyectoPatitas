@@ -19,7 +19,7 @@ assert profile.animals_for_adoption[0] == animal
 
 ## `pytest`
 
-[Pytest](tasks.py) es un marco de prueba unitaria para Python. Se utiliza específicamente para escribir y ejecutar pruebas unitarias y de integración en proyectos.
+[Pytest](/tasks.py) es un marco de prueba unitaria para Python. Se utiliza específicamente para escribir y ejecutar pruebas unitarias y de integración en proyectos.
 
 ```
 pytest
