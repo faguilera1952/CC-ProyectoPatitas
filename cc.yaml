@@ -3,6 +3,6 @@ lenguaje:
 entidad:
   - src/users/animal_profile.py
 test:
-  - test/tests_profile.py
+  - test/test_profile.py
 fichero_tareas: 
   - tasks.py

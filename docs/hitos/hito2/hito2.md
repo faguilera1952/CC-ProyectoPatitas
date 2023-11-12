@@ -21,6 +21,10 @@ assert profile.animals_for_adoption[0] == animal
 
 Pytest es un marco de prueba unitaria para Python. Se utiliza específicamente para escribir y ejecutar pruebas unitarias y de integración en proyectos.
 
+```
+pytest
+```
+
 ## TDD
 
 El Desarrollo Guiado por Pruebas (TDD) es un enfoque de desarrollo de software en el que escribimos pruebas antes de escribir el código. En lugar de escribir código y luego probarlo, seguimos un ciclo que comienza con la creación de pruebas que describen el comportamiento deseado. Luego, escribimos el código necesario para que esas pruebas pasen. La principal razón para elegir el TDD es que ayuda a mejorar la calidad del código y reduce la probabilidad de introducir errores. 
