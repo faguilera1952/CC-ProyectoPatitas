@@ -17,7 +17,7 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 ## :computer: Desarrollo y Ejecución de los tests:
 
-- En el enlace siguiente se puede acceder al [Hito 2](docs/hitos/hito2/hito2.md) donde se define todo el proceso de desarrollo y configuración de los tests unitarios.
+- En el enlace siguiente se puede acceder al [Hito 2](docs/hitos/hito2/hito2.md) donde se define todo el proceso de desarrollo y configuración de los tests unitarios, el uso de la biblioteca de aserciones así como el marco de pruebas empleado.
 
 
 ![perrogato](/docs/img/perro_gato.png)
