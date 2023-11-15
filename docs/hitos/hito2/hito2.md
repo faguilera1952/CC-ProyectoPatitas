@@ -75,41 +75,41 @@ pytest test/test_profile.py
 
 ## Describiendo mi código inicial
 
-1. Clase Animal en animal_profile.py:
+1. Clase `Animal` en `animal_profile.py`:
 
 Representa un animal con información básica para la adopción.
 
 - Atributos: name, age, species, description.
 - Métodos: __init__(self, name, age, species, description): Inicializa un nuevo objeto Animal con la información proporcionada.
 
-2. Clase Profile en animal_profile.py:
+2. Clase `Profile` en `animal_profile.py`:
 
 Representa un perfil de adopción que contiene una lista de animales disponibles para adopción.
 
 - Atributos: animals_for_adoption.
 - Métodos: __init__(self), add_animal(self, animal), search_animal(self, name).
 
-3. Ejemplo de uso en animal_profile.py:
+3. Ejemplo de uso en `animal_profile.py`:
 
 Ejemplo de cómo usar las clases _Profile_ y _Animal_ para crear un perfil de adopción y realizar búsquedas.
 
 - Acciones:
-  - Crea una instancia de la clase Profile (my_profile).
+  - Crea una instancia de la clase Profile (`my_profile`).
   - Agrega dos animales (Buddy y Whiskers) a la lista de animales para adopción.
   - Realiza una búsqueda de información sobre un animal específico (Buddy) y muestra los detalles si se encuentra.
 
-4. Pruebas unitarias en test_profile.py:
+4. Pruebas unitarias en `test_profile.py`:
 
-Verificar el correcto funcionamiento de las clases Profile y Animal.
+Verificar el correcto funcionamiento de las clases `Profile` y `Animal`.
 
 - Pruebas:
-  - test_add_animal(): Verifica que la función add_animal agrega correctamente un animal a la lista.
-  - test_search_existing_animal(): Verifica que la función search_animal encuentra correctamente un animal existente.
-  - test_search_nonexistent_animal(): Verifica que la función search_animal devuelve None para un animal inexistente.
-  - test_search_case_insensitive(): Verifica que la búsqueda de animales sea insensible a mayúsculas y minúsculas.
+  - `test_add_animal()`: Verifica que la función add_animal agrega correctamente un animal a la lista.
+  - `test_search_existing_animal()`: Verifica que la función search_animal encuentra correctamente un animal existente.
+  - `test_search_nonexistent_animal()`: Verifica que la función search_animal devuelve None para un animal inexistente.
+  - `test_search_case_insensitive()`: Verifica que la búsqueda de animales sea insensible a mayúsculas y minúsculas.
 
-5. Tarea test en tasks.py:
+5. Tarea test en `tasks.py`:
 
-Ejecutar las pruebas utilizando pytest.
+Ejecutar las pruebas utilizando `pytest`.
 
-- Acciones: Utiliza la tarea test de Invoke para ejecutar las pruebas en el archivo test/test_profile.py.
+- Acciones: Utiliza la tarea test de Invoke para ejecutar las pruebas en el archivo `test/test_profile.py`.
