@@ -2,7 +2,7 @@
 
 ## Gestor de tareas
 
-Para llevar a cabo la realización de este proyecto, se usará _"invoke_"_ como gestor de tareas.  
+Para llevar a cabo la realización de este proyecto, se usará _"invoke_" como gestor de tareas.  
 
 ## `invoke`
 
@@ -12,7 +12,7 @@ Es una herramienta en Python que se utiliza como un gestor de tareas o un sistem
 
 Pytest proporciona la [biblioteca de aserciones](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/test/test_profile.py). Pytest utiliza el método "assert" para realizar las aserciones en las pruebas. En los bloques assert se están verificando varias condiciones y, si alguna de ellas falla, pytest informará sobre el error y detendrá la ejecución de las pruebas.
 
-```
+```text
 assert len(profile.animals_for_adoption) == 1
 assert profile.animals_for_adoption[0] == animal
 ```
@@ -21,7 +21,7 @@ assert profile.animals_for_adoption[0] == animal
 
 [Pytest](/tasks.py) es un marco de prueba unitaria para Python. Se utiliza específicamente para escribir y ejecutar pruebas unitarias y de integración en proyectos.
 
-```
+```text
 pytest
 ```
 
@@ -61,7 +61,7 @@ pip install invoke
 
 Luego de haber creado y activado el entorno virtual, teniendo el test listo, se puede ejecutar el siguiente comando o bien desde la terminal de VSCode -en mi caso-, o desde una terminal que apunte a la raiz del proyecto.
 
-En este caso, ya se ha definido una tarea _test_ en el archivo _tasks.py_ que utiliza _pytest_ para ejecutar las pruebas. Este comando invocará la tarea _test_ , y invoke ejecutará _pytest_ con el archivo de pruebas test_profile.py:
+En este caso, ya se ha definido una tarea _test_ en el archivo _tasks.py_ que utiliza _pytest_ para ejecutar las pruebas. Este comando invocará la tarea _test_ , y invoke ejecutará _pytest_ con el archivo de pruebas [test_profile.py](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/test/test_profile.py):
 
 ```text
 .\venv\Scripts\invoke test
