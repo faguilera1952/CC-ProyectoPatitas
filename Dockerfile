@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Instala las dependencias necesarias
-RUN pip install -r requirements.txt  # Si tienes un archivo de requisitos
+RUN pip install -r requirements.txt  
 
 # Comando por defecto para ejecutar las pruebas unitarias
 CMD ["pytest"]
