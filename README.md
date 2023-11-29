@@ -2,7 +2,6 @@
 
 ## Cloud Computing: Fundamentos e Infraestructuras - Práctica Individual
 
-======
 Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 ## Proyecto (Prácticas de Laboratorio)
@@ -23,6 +22,6 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 ## :whale: Creación de un contenedor para pruebas
 
-- El enlace proporcionado se podrá acceder al [Hito 3](docs/hitos/hito2/hito3.md), donde se detalla la elección y explicación del contenedor base _Doker_. Además, se describirá la creación del archivo _Dockerfile_ seguiendo las buenas prácticas para adaptarlo de manera adecuada a la funcionalidad del proyecto.
+- El enlace proporcionado se podrá acceder al [Hito 3](docs/hitos/hito3.md), donde se detalla la elección y explicación del contenedor base _Doker_. Además, se describirá la creación del archivo _Dockerfile_ seguiendo las buenas prácticas para adaptarlo de manera adecuada a la funcionalidad del proyecto.
 
 ![perrogato](/docs/img/perro_gato.png)
