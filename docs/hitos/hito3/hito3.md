@@ -34,10 +34,10 @@ Este comando captura todas las dependencias instaladas en el entorno actual de P
 
 Se crea manualmente el archivo Dokerfile, que es un archivo de configuración utilizado en Docker para construir imágenes de contenedores. El propósito principal del archivo Dockerfile es proporcionar una receta o conjunto de instrucciones paso a paso para construir una imagen de contenedor. Al construir la imagen, Docker seguirá estas instrucciones para crear un entorno reproducible y consistente.
 
-- FROM: Indica la imagen base que se utilizará como punto de partida. Establece el directorio de trabajo en el contenedor.
-- WORKDIR /app: Establece el directorio de trabajo en el contenedor.
-- COPY . /app: Copia el código del proyecto al contenedor.
-- CMD ["pytest"]: Comando por defecto para ejecutar las pruebas unitarias.
+- `FROM`: Indica la imagen base que se utilizará como punto de partida. Establece el directorio de trabajo en el contenedor.
+- `WORKDIR /app`: Establece el directorio de trabajo en el contenedor.
+- `COPY . /app`: Copia el código del proyecto al contenedor.
+- `CMD ["pytest"]`: Comando por defecto para ejecutar las pruebas unitarias.
 
 ## Creación del archivo docker-compose.yml
 
@@ -53,7 +53,7 @@ docker-compose build
 
 Obteniendo el siguiente resultado:
 
-![doker build](/docs/img/doker 1.png)
+![doker build](/docs/img/doker_1.png)
 
 Luego para iniciar los servicios definidos en el archivo docker-compose.yml se ejecuta el siguiente comando:
 
@@ -63,7 +63,7 @@ docker-compose up
 
 Obteniendo el siguiente resultado:
 
-![doker up](/docs/img/doker 2.png)
+![doker up](/docs/img/doker_2.png)
 
 ## Después de que la imagen se haya construido, se ejecuta las pruebas unitarias
 
@@ -75,4 +75,4 @@ docker-compose run tests
 
 Obteniendo el siguiente resultado:
 
-![doker tests](/docs/img/doker 3.png)
+![doker tests](/docs/img/doker_3.png)
