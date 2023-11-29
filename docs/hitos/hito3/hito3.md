@@ -53,7 +53,7 @@ docker-compose build
 
 Obteniendo el siguiente resultado:
 
-![doker build](/docs/img/doker_1.png)
+![docker build](/docs/img/docker_1.png)
 
 Luego para iniciar los servicios definidos en el archivo docker-compose.yml se ejecuta el siguiente comando:
 
@@ -63,7 +63,7 @@ docker-compose up
 
 Obteniendo el siguiente resultado:
 
-![doker up](/docs/img/doker_2.png)
+![docker up](/docs/img/docker_2.png)
 
 ## Después de que la imagen se haya construido, se ejecuta las pruebas unitarias
 
@@ -75,4 +75,20 @@ docker-compose run tests
 
 Obteniendo el siguiente resultado:
 
-![doker tests](/docs/img/doker_3.png)
+![docker tests](/docs/img/docker_3.png)
+
+## Después se procede a etiquetar la imagen local con el nombre del usuario de Docker Hub y el nombre de la imagen que se desea en Docker Hub
+
+```text
+docker tag cisquito/cc-proyectopatitas-tests:latest cisquito/cc-proyectopatitas-tests:latest
+```
+
+![docker tag](/docs/img/docker_4.png)
+
+## Por último se procese a hacer el push de la imagen etiquetada local al Docker Hub
+
+```text
+docker push cisquito/cc-proyectopatitas-tests:latest
+```
+
+![docker push](/docs/img/docker_5.png)
