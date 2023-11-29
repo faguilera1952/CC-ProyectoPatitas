@@ -4,29 +4,30 @@ La elección del contenedor base a utilizar se basa en función a las decisiones
 
 - python: Esta es la imagen oficial de Python y está disponible con diferentes versiones y la elejida como contenedor base con la versión 3.9.
 
-´´´
+```text
 FROM python:3.9
-´´´
+```
 
 - alpine: También hay imágenes más ligeras basadas en Alpine Linux que son conocidas por ser más pequeñas en tamaño.
 
-´´´
+```text
 FROM python:3.9-alpine
-´´´
+```
 
 - slim: Las imágenes "slim" son versiones más ligeras de las imágenes oficiales y son una opción intermedia entre las versiones completas y las versiones alpinas.
 
-´´´
+```text
 FROM python:3.9-slim
-´´´
+```
 
 ## Configuración del contenedor
 
 - Primero creamos el archivo _requirements.txt_ usando el comando desde el directorio raiz del proyecto:
 
-´´´
+```text
 pip freeze > requirements.txt
-´´´
+```
+
 Este comando captura todas las dependencias instaladas en el entorno actual de Python y las escribe en un archivo llamado requirements.txt. Esto asegura que las mismas dependencias estén disponibles en el contenedor Docker.
 
 ## Creacion del archivo Dokerfile
@@ -46,31 +47,32 @@ Se crea manualmente el archivo para simplificar la ejecución del contenedor.
 
 Se abre una terminal en el directorio del proyecto y se ejecuta el siguiente comando para construir la imagen del contenedor:
 
-´´´
+```text
 docker-compose build
-´´´
+```
 
 Obteniendo el siguiente resultado:
 
-![doker build](./../../img/doke 1.png)
+![doker build](/docs/img/doker 1.png)
 
 Luego para iniciar los servicios definidos en el archivo docker-compose.yml se ejecuta el siguiente comando:
 
-´´´
+```text
 docker-compose up
-´´´
+```
 
 Obteniendo el siguiente resultado:
 
-![doker up](./../../img/doke 2.png)
+![doker up](/docs/img/doker 2.png)
 
 ## Después de que la imagen se haya construido, se ejecuta las pruebas unitarias
 
 Esta acción montará el directorio actual dentro del contenedor y ejecutará el comando por defecto (pytest en este caso)
 
-´´´
+```text
 docker-compose run tests
-´´´
+```
+
 Obteniendo el siguiente resultado:
 
-![doker tests](./../../img/doke 3.png)
+![doker tests](/docs/img/doker 3.png)
