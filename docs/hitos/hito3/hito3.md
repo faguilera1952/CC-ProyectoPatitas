@@ -85,7 +85,7 @@ docker tag cisquito/cc-proyectopatitas-tests:latest cisquito/cc-proyectopatitas-
 
 ![docker tag](/docs/img/docker_4.png)
 
-## Por último se procese a hacer el push de la imagen etiquetada local al Docker Hub
+## Por último se procede a hacer el push de la imagen etiquetada local al Docker Hub
 
 ```text
 docker push cisquito/cc-proyectopatitas-tests:latest
