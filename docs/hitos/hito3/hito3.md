@@ -99,40 +99,40 @@ GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://g
 
 1. Crear un Archivo de Flujo de Trabajo.
 
-```text
-Archivo YML en la ruta .github/workflows/update-imagen.yml Este archivo contendrá la configuración para el flujo de trabajo.
-```
+    ```text
+    Archivo YML en la ruta .github/workflows/update-imagen.yml Este archivo contendrá la configuración para el flujo de trabajo.
+    ```
 
 2. Configurar el Flujo de Trabajo.
 
-```text
-jobs:
-  build:
-    runs-on: windows-latest
+    ```text
+    jobs:
+    build:
+        runs-on: windows-latest
 
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v2
+        steps:
+        - name: Checkout Repo
+            uses: actions/checkout@v2
 
-      - name: Build Docker Image
-        run: docker build -t tu-usuario/nombre-imagen:etiqueta .
+        - name: Build Docker Image
+            run: docker build -t tu-usuario/nombre-imagen:etiqueta .
 
-      - name: Login a Docker Hub
-        run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+        - name: Login a Docker Hub
+            run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
 
-      - name: Push a Docker Hub
-        run: docker push cisquito/cc-proyectopatitas-tests:latest
+        - name: Push a Docker Hub
+            run: docker push cisquito/cc-proyectopatitas-tests:latest
 
-```
+    ```
 
 3. Configurar Secretos en GitHub.
 
-```text
-En la configuración del repositorio en GitHub, en la sección "Settings" y luego "Secrets" se agregan _DOCKER_USERNAME_ y _DOCKER_PASSWORD_ con las credenciales de Docker Hub.
-```
+    ```text
+    En la configuración del repositorio en GitHub, en la sección "Settings" y luego "Secrets" se agregan _DOCKER_USERNAME_ y _DOCKER_PASSWORD_ con las credenciales de Docker Hub.
+    ```
 
 4. Ejecutar el Flujo de Trabajo.
 
-```text
-Hacer un push desde el directorio del proyecto.
-```
+    ```text
+    Hacer un push desde el directorio del proyecto.
+    ```
