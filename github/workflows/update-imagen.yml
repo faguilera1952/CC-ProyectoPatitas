@@ -1,0 +1,23 @@
+name: Actualizar Imagen
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Build Docker Image
+        run: docker build -t tu-usuario/nombre-imagen:etiqueta .
+
+      - name: Login a Docker Hub
+        run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+
+      - name: Push a Docker Hub
+        run: docker push cisquito/cc-proyectopatitas-tests:latest
