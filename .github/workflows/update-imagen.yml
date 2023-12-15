@@ -6,16 +6,7 @@ on:
       - main
 
 jobs:
-  update-docker:
-    runs-on: windows-latest
-
-    steps:
-      - name: Actualizar Docker en Windows
-        run: |
-          choco upgrade docker-desktop -y
-
   build-and-publish:
-    needs: update-docker
     runs-on: windows-latest
 
     steps:
