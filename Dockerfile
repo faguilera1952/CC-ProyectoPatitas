@@ -1,5 +1,5 @@
 # Usa una imagen de Python como base
-FROM python:3.9-slim
+FROM mcr.microsoft.com/windows/nanoserver:1809
 
 # Establece el directorio de trabajo en el contenedor
 WORKDIR /app
