@@ -1,5 +1,5 @@
 # Usa una imagen de Python como base
-FROM python:3.9-windowsservercore-ltsc2019
+FROM python:3.9.7-windowsservercore-ltsc2019
 
 # Establece el directorio de trabajo en el contenedor
 WORKDIR /app
