@@ -8,11 +8,11 @@ on:
 jobs:
   build-and-publish:
     runs-on: windows-latest
-    
-    - name: Imprimir información del sistema operativo
-      run: echo "El sistema operativo es ${{ runner.os }}"
 
     steps:
+      - name: Imprimir información del sistema operativo
+        run: echo "El sistema operativo es ${{ runner.os }}"
+
       - name: Checkout Repo
         uses: actions/checkout@v2
 
