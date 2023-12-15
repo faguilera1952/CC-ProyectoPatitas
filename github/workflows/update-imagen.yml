@@ -1,4 +1,4 @@
-name: Actualizar Imagen
+name: Actualizar Imágenes en Docker Hub y GitHub Packages
 
 on:
   push:
@@ -21,3 +21,12 @@ jobs:
 
       - name: Push a Docker Hub
         run: docker push cisquito/cc-proyectopatitas-tests:latest
+
+      - name: Login a GitHub Packages
+        run: echo ${{ secrets.GITHUB_TOKEN }} | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
+
+      - name: Push a GitHub Packages
+        run: |
+            docker tag cisquito/cc-proyectopatitas-tests:latest docker.pkg.github.com/${{ github.repository_owner }}/${{ github.repository }}/cc-proyectopatitas-tests:latest
+            docker push docker.pkg.github.com/${{ github.repository_owner }}/${{ github.repository }}/cc-proyectopatitas-tests:latest
+

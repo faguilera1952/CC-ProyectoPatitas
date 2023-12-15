@@ -10,6 +10,9 @@ class Profile:
             if animal.name.lower() == name.lower():
                 return animal
         return None
+    
+    def get_animal_count(self):
+        return len(self.animals_for_adoption)
 
 class Animal:
     def __init__(self, name, age, species, description):
