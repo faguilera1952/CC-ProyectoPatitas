@@ -95,7 +95,7 @@ docker push cisquito/cc-proyectopatitas-tests:latest
 
 ## Acciones programadas mediante GitHub Actions
 
-GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/github/workflows/update-imagen.yml) automáticamente cuando se producen ciertos eventos en el repositorio de GitHub. En este caso los webhooks activan flujos de trabajo basados en eventos como un push.
+GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/.github/workflows/update-imagen.yml) automáticamente cuando se producen ciertos eventos en el repositorio de GitHub. En este caso los webhooks activan flujos de trabajo basados en eventos como un push.
 
 1. Crear un Archivo de Flujo de Trabajo.
 
@@ -105,23 +105,10 @@ GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://g
 
 2. Configurar el Flujo de Trabajo.
 
+    Se publican las imágenes en DockerHub y en GitHub Packages desde el archivo update-imagen.yml en un solo flujo de trabajo.
+
     ```text
-    jobs:
-    build:
-        runs-on: windows-latest
-
-        steps:
-        - name: Checkout Repo
-            uses: actions/checkout@v2
-
-        - name: Build Docker Image
-            run: docker build -t tu-usuario/nombre-imagen:etiqueta .
-
-        - name: Login a Docker Hub
-            run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
-
-        - name: Push a Docker Hub
-            run: docker push cisquito/cc-proyectopatitas-tests:latest
+    [update-imagen.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/.github/workflows/update-imagen.yml)
 
     ```
 
@@ -134,5 +121,9 @@ GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://g
 4. Ejecutar el Flujo de Trabajo.
 
     ```text
-    Hacer un push desde el directorio del proyecto.
+    Actualizar el código y hacer un push desde el directorio del proyecto.
     ```
+
+5. Chequear las Actions en GitHub.  
+
+    ![GitHub Actions](/docs/img/docker_6.png)
