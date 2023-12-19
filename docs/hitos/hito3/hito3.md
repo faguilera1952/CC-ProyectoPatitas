@@ -41,7 +41,7 @@ Se crea manualmente el archivo Dokerfile, que es un archivo de configuración ut
 
 ## Creación del archivo docker-compose.yml
 
-Se crea manualmente el archivo para simplificar la ejecución del contenedor.
+Se crea manualmente el archivo [docker-compose.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/docker-compose.yml) para simplificar la ejecución del contenedor.
 
 ## Ejecución del contenedor
 
