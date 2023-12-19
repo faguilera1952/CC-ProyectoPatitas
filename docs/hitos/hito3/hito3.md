@@ -99,30 +99,19 @@ GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://g
 
 1. Crear un Archivo de Flujo de Trabajo.
 
-    ```text
     Archivo YML en la ruta .github/workflows/update-imagen.yml Este archivo contendrá la configuración para el flujo de trabajo.
-    ```
 
 2. Configurar el Flujo de Trabajo.
 
-    Se publican las imágenes en DockerHub y en GitHub Packages desde el archivo update-imagen.yml en un solo flujo de trabajo.
-
-    ```text
-    [update-imagen.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/.github/workflows/update-imagen.yml)
-
-    ```
+    Se publican las imágenes en DockerHub y en GitHub Packages desde el archivo [update-imagen.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/.github/workflows/update-imagen.yml) en un solo flujo de trabajo.
 
 3. Configurar Secretos en GitHub.
 
-    ```text
     En la configuración del repositorio en GitHub, en la sección "Settings" y luego "Secrets" se agregan _DOCKER_USERNAME_ y _DOCKER_PASSWORD_ con las credenciales de Docker Hub.
-    ```
 
 4. Ejecutar el Flujo de Trabajo.
 
-    ```text
     Actualizar el código y hacer un push desde el directorio del proyecto.
-    ```
 
 5. Chequear las Actions en GitHub.  
 
