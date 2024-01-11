@@ -7,3 +7,5 @@ El objetivo de este hito 4 es preparar el proyecto para la integración continua
 ## Jenkins
 
 Permite automatizar todo el proceso de construcción y ejecución de pruebas. Se puede configurar Jenkins para que automáticamente inicie la construcción del contenedor Docker y ejecute las pruebas unitarias cada vez que se realicen cambios en el código. Jenkins también permite hacer integración continua de manera robusta. Facilita la integración continua al proporcionar una ejecución automatizada de pruebas en cada cambio de código. Esto ayuda a identificar rápidamente problemas de integración y mantener una base de código estable.
+
+siguen los cambios
