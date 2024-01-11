@@ -43,7 +43,7 @@ Se crea manualmente el archivo Dokerfile, que es un archivo de configuración ut
 
 ## Creación del archivo docker-compose.yml
 
-Se crea manualmente el archivo para simplificar la ejecución del contenedor.
+Se crea manualmente el archivo [docker-compose.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/docker-compose.yml) para simplificar la ejecución del contenedor.
 
 ## Ejecución del contenedor
 
@@ -118,3 +118,4 @@ GitHub Actions utiliza webhooks para activar flujos de trabajo [aquí](https://g
 5. Chequear las Actions en GitHub.  
 
     ![GitHub Actions](/docs/img/docker_6.png)
+última actualización de imágenes en [Docker Hub y GitHub Packages](https://github.com/faguilera1952/CC-ProyectoPatitas/actions/runs/7266340552/job/19797897834)
