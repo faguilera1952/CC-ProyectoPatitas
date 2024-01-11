@@ -27,3 +27,6 @@ jobs:
 
       - name: Tag y Push a GitHub Packages
         run: docker push cisquito/cc-proyectopatitas-tests:latest
+        
+      - name: Trigger Jenkins Build Now
+        run: curl -u cisquito:maripulita -X POST http://localhost:8080/buildByToken/build?job=Patitas
