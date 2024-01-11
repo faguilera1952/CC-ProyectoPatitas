@@ -1,4 +1,4 @@
-# :cat: Hito 2 :dog:
+# :cat: Hito 4 :dog:
 
 ## Elección del sistema de Integración Continua (CI)
 
