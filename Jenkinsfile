@@ -15,8 +15,8 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh 'pip install -r requirements.txt'
-                    sh 'pytest'
+                    bat 'pip install -r requirements.txt'
+                    bat 'pytest'
                 }
             }
         }
