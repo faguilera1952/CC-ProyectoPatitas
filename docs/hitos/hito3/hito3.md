@@ -1,4 +1,6 @@
-# Elección del contenedor base
+# :cat: Hito 3 :dog:
+
+## Elección del contenedor base
 
 La elección del contenedor base a utilizar se basa en función a las decisiones tomadas en el [Hito 2](./../hito2/hito2.md) y teniendo en cuentas las herramientas, los frameworks y lenguajes que se emplearán. Al crear un contenedor Docker para una aplicación en _Python_, generalmente se comienza seleccionando una imagen base de _Python_ oficial. Estas imágenes son proporcionadas por la comunidad de Docker y están optimizadas para ejecutar aplicaciones Python. Algunas de las imágenes base populares para Python incluyen:
 
