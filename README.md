@@ -24,8 +24,8 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 - El enlace proporcionado se podrá acceder al [Hito 3](docs/hitos/hito3/hito3.md), donde se detalla la elección y explicación del contenedor base _Doker_. Además, se describirá la creación del archivo _Dockerfile_ seguiendo las buenas prácticas para adaptarlo de manera adecuada a la funcionalidad del proyecto.
 
-## :whale: Integración Continua (CI)
+## :electron: Integración Continua (CI)
 
-- El enlace proporcionado se podrá acceder al [Hito 4](docs/hitos/hito4/hito4.md), aqui se detalla el porque la elección de Jenkins como herramienta de integración continua para el proyecto en desarrollo.  
+- El enlace proporcionado se podrá acceder al [Hito 4](docs/hitos/hito4/hito4.md), aqui se detalla el porque la elección de Jenkins como herramienta de integración continua para el proyecto en desarrollo asi como toda la configuración y ejecución del mismo.  
 
 ![perrogato](/docs/img/perro_gato.png)

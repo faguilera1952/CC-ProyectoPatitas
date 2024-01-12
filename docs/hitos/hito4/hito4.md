@@ -22,7 +22,7 @@ Se procede luego a crear el nuevo proyecto en Jenkins, en mi caso se llama Patit
 
 Posteriormente se procede a conectar _Github_ dentro de _Jenkins_ mediante la URL dentro de la configuración general de _Jenkins
 
-![Project url](/docs/img/4_jenkins.png)
+![Project url](/docs/img/4_github.png)
 
 ## Configuración de la pipeline en Jenkins
 
@@ -53,3 +53,11 @@ Mediante la configuración de _Webhook_ de _Github_ se estableció que cada vez 
 ![action](/docs/img/2_jenkins.png)
 
 ![action2](/docs/img/3_jenkins.png)
+
+## Conclusion
+
+- Jenkins agiliza el desarrollo en Python con automatización de tareas, integración continua y entrega continua (CI/CD). Su compatibilidad con Python, extensibilidad mediante plugins y facilitación de CI/CD proporcionan una infraestructura sólida.
+
+- Automatización de Procesos: Jenkins permite la automatización de diversas tareas en el flujo de trabajo, como la construcción del código, ejecución de pruebas, y despliegue.
+
+- Integración Continua (CI): facilita la práctica de CI, donde cada cambio en el código se integra automáticamente, se compila y se prueba. Esto ayuda a identificar y corregir problemas de manera rápida, asegurando una base de código siempre funcional.
