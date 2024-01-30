@@ -27,11 +27,11 @@ if __name__ == "__main__":
     my_profile = Profile()
 
     # Agregar animales para adopción
-    my_profile.add_animal(Animal("Buddy", 2, "Perro", "Cachorro juguetón en busca de un hogar"))
-    my_profile.add_animal(Animal("Whiskers", 1, "Gato", "Gatito curioso y cariñoso"))
+    my_profile.add_animal(Animal("MariPulita", 2, "Gato", "Mi nina no se da nunca en adopcion"))
+    my_profile.add_animal(Animal("Vicenta", 1, "Gato", "Lo mas lindo de casa"))
 
     # Buscar información de un animal por nombre
-    animal_name_to_search = "Buddy"
+    animal_name_to_search = "MariPulita"
     found_animal = my_profile.search_animal(animal_name_to_search)
 
     if found_animal:

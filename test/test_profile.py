@@ -12,7 +12,7 @@ from src.users.animal_profile import Profile, Animal
 
 def test_add_animal():
     profile = Profile()
-    animal = Animal("Buddy", 2, "Perro", "Cachorro juguetón en busca de un hogar")
+    animal = Animal("MariPulita", 2, "Gato", "Mi nina no se da nunca en adopcion")
 
     profile.add_animal(animal)
 
@@ -21,20 +21,20 @@ def test_add_animal():
 
 def test_search_existing_animal():
     profile = Profile()
-    animal1 = Animal("Buddy", 2, "Perro", "Cachorro juguetón en busca de un hogar")
-    animal2 = Animal("Whiskers", 1, "Gato", "Gatito curioso y cariñoso")
+    animal1 = Animal("MariPulita", 2, "Gato", "Mi nina no se da nunca en adopcion")
+    animal2 = Animal("Vicenta", 1, "Gato", "Lo mas lindo de casa")
 
     profile.add_animal(animal1)
     profile.add_animal(animal2)
 
-    found_animal = profile.search_animal("Buddy")
+    found_animal = profile.search_animal("MariPulita")
 
     assert found_animal is not None
-    assert found_animal.name == "Buddy"
+    assert found_animal.name == "MariPulita"
 
 def test_search_nonexistent_animal():
     profile = Profile()
-    animal = Animal("Whiskers", 1, "Gato", "Gatito curioso y cariñoso")
+    animal = Animal("Vicenta", 1, "Gato", "Lo mas lindo de casa")
 
     profile.add_animal(animal)
 
@@ -44,11 +44,11 @@ def test_search_nonexistent_animal():
 
 def test_search_case_insensitive():
     profile = Profile()
-    animal = Animal("Buddy", 2, "Perro", "Cachorro juguetón en busca de un hogar")
+    animal = Animal("MariPulita", 2, "Gato", "Mi nina no se da nunca en adopcion")
 
     profile.add_animal(animal)
 
-    found_animal = profile.search_animal("BuDdY")
+    found_animal = profile.search_animal("MariPulita")
 
     assert found_animal is not None
-    assert found_animal.name == "Buddy"
+    assert found_animal.name == "MariPulita"
