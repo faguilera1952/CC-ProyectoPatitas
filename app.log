@@ -1,0 +1,70 @@
+2024-01-31 10:47:41,069 - WARNING -  * Debugger is active!
+2024-01-31 10:47:41,091 - INFO -  * Debugger PIN: 977-922-265
+2024-01-31 10:52:17,056 - INFO -  * Detected change in 'C:\\Users\\LabsXD\\Desktop\\CC\\patitas\\CC-ProyectoPatitas\\app.py', reloading
+2024-01-31 10:54:00,376 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x00000238B1C2C850>
+2024-01-31 10:54:00,376 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x00000238B0C21550>
+2024-01-31 10:54:00,385 - WARNING -  * Debugger is active!
+2024-01-31 10:54:00,389 - INFO -  * Debugger PIN: 977-922-265
+2024-01-31 10:54:04,391 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:04] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 10:54:04,624 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:04] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 10:54:04,637 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:04] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 10:54:04,645 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:04] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 10:54:04,648 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:04] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 10:54:05,084 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:05] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 10:54:05,104 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:05] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-31 10:54:53,479 - INFO - Búsqueda del animal: MariPulita
+2024-01-31 10:54:53,480 - INFO - 127.0.0.1 - - [31/Jan/2024 10:54:53] "GET /animals/search/MariPulita HTTP/1.1" 200 -
+2024-01-31 10:55:41,992 - INFO - 127.0.0.1 - - [31/Jan/2024 10:55:41] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 10:55:42,238 - INFO - 127.0.0.1 - - [31/Jan/2024 10:55:42] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1[0m" 304 -
+2024-01-31 10:55:42,241 - INFO - 127.0.0.1 - - [31/Jan/2024 10:55:42] "[36mGET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1[0m" 304 -
+2024-01-31 10:55:42,263 - INFO - 127.0.0.1 - - [31/Jan/2024 10:55:42] "[36mGET /flasgger_static/swagger-ui.css.map HTTP/1.1[0m" 304 -
+2024-01-31 11:00:34,807 - INFO -  * Detected change in 'C:\\Users\\LabsXD\\Desktop\\CC\\patitas\\CC-ProyectoPatitas\\app.py', reloading
+2024-01-31 11:00:35,778 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001E146496C90>
+2024-01-31 11:00:35,778 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001E1455608D0>
+2024-01-31 11:00:35,791 - WARNING -  * Debugger is active!
+2024-01-31 11:00:35,797 - INFO -  * Debugger PIN: 977-922-265
+2024-01-31 11:00:36,772 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:36] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 11:00:36,898 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:36] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 11:00:36,933 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:36] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 11:00:36,942 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:36] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 11:00:36,944 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:36] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 11:00:37,411 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:37] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 11:00:37,435 - INFO - 127.0.0.1 - - [31/Jan/2024 11:00:37] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-31 11:01:04,218 - INFO -  * Detected change in 'C:\\Users\\LabsXD\\Desktop\\CC\\patitas\\CC-ProyectoPatitas\\app.py', reloading
+2024-01-31 11:01:05,303 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000002138B98A810>
+2024-01-31 11:01:05,304 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000002138AA50390>
+2024-01-31 11:01:05,318 - WARNING -  * Debugger is active!
+2024-01-31 11:01:05,328 - INFO -  * Debugger PIN: 977-922-265
+2024-01-31 11:01:05,705 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 11:01:05,831 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 11:01:05,861 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 11:01:05,865 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 11:01:05,874 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 11:01:05,978 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 11:01:05,990 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:05] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-31 11:01:42,900 - INFO - Acceso a la ruta /MariPulita
+2024-01-31 11:01:42,900 - INFO - 127.0.0.1 - - [31/Jan/2024 11:01:42] "GET /MariPulita HTTP/1.1" 200 -
+2024-01-31 11:02:07,221 - INFO -  * Detected change in 'C:\\Users\\LabsXD\\Desktop\\CC\\patitas\\CC-ProyectoPatitas\\app.py', reloading
+2024-01-31 11:02:08,182 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000002012FE7A7D0>
+2024-01-31 11:02:08,183 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000002012F49A2D0>
+2024-01-31 11:02:08,198 - WARNING -  * Debugger is active!
+2024-01-31 11:02:08,206 - INFO -  * Debugger PIN: 977-922-265
+2024-01-31 11:02:09,563 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:09] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 11:02:09,763 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:09] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 11:02:09,801 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:09] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 11:02:09,814 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:09] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 11:02:09,816 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:09] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 11:02:09,968 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 11:02:10,000 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:10] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-31 11:02:13,730 - INFO - Acceso a la ruta /MariPulita
+2024-01-31 11:02:13,731 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:13] "GET /MariPulita HTTP/1.1" 200 -
+2024-01-31 11:02:35,693 - INFO - Búsqueda del animal: Vicenta
+2024-01-31 11:02:35,694 - INFO - 127.0.0.1 - - [31/Jan/2024 11:02:35] "GET /animals/search/Vicenta HTTP/1.1" 200 -
+2024-01-31 12:01:59,705 - INFO - 127.0.0.1 - - [31/Jan/2024 12:01:59] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 12:01:59,826 - INFO - 127.0.0.1 - - [31/Jan/2024 12:01:59] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 12:01:59,912 - INFO - 127.0.0.1 - - [31/Jan/2024 12:01:59] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 12:01:59,973 - INFO - 127.0.0.1 - - [31/Jan/2024 12:01:59] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 12:02:00,130 - INFO - 127.0.0.1 - - [31/Jan/2024 12:02:00] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 12:02:00,312 - INFO - 127.0.0.1 - - [31/Jan/2024 12:02:00] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 12:12:55,245 - INFO - Acceso a la ruta /MariPulita
+2024-01-31 12:12:55,247 - INFO - 127.0.0.1 - - [31/Jan/2024 12:12:55] "GET /MariPulita HTTP/1.1" 200 -
