@@ -43,6 +43,10 @@ por ultimo también necesitamos Werkzeug para manejar la parte de servidor web y
 
 [app.py](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/app.py) es un archivo Python que define una aplicación web utilizando el framework Flask. En este archivo, se crea una aplicación Flask llamada _app_ que incluye rutas para gestionar endpoints relacionados con la adopción y búsqueda de animales. Además, se utiliza la extensión Flask-Swagger para generar documentación automática de la API, y se implementa un sistema de logging para registrar información relevante. La aplicación contiene tres rutas principales: /MariPulita, un endpoint para mostrar información sobre una gatita, /animals/add, un endpoint para agregar nuevos animales a una lista de adopción, y /animals/search/<string:name>, un endpoint para buscar información sobre un animal específico. El código también instancia un objeto Profile para gestionar la lista de animales para adopción y registra eventos importantes utilizando el sistema de logging de Flask. Finalmente, en el bloque if __name__ == '__main__':, se añaden dos animales de ejemplo a la lista y la aplicación se ejecuta en modo debug.
 
+## Creación de ficheros de especificación OpenAPI
+
+Se crean dentro de la carpeta [Swagger](https://github.com/faguilera1952/CC-ProyectoPatitas/tree/main/swagger) los ficheros [add_animal.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/swagger/add_animal.yml) y [search_animal.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/swagger/search_animal.yml) en donde se definen los detalles de cómo interactuar con la API, qué datos deben proporcionarse en la solicitud y qué se puede esperar como respuesta.
+
 ## Inicialización de la aplicación Flask
 
 Estando dentro del entorno virtual del proyecto se procede a ejecutar el comando:
@@ -62,7 +66,7 @@ Dentro de _apidocs_ podemos ver los métodos GET y POST creados.
 
 ## Registros de logs de las API´s
 
-Se agrega la configuración de _logging_ a la aplicación Flask para que los registros se almacenen en un [archivo](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/app.py) que es generado y se guardo en el local del proyecto. Se importa la libreria _import logging_ en el archivo app.py
+Se agrega la configuración de _logging_ a la aplicación Flask para que los registros se almacenen en un [archivo](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/app.log) que es generado y se guardo en el local del proyecto. Se importa la libreria _import logging_ en el archivo app.py
 
         ```
         # Configuración de logging para Flask
