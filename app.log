@@ -73,3 +73,22 @@
 2024-01-31 14:15:29,972 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:29] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
 2024-01-31 14:15:30,261 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:30] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
 2024-01-31 14:15:30,552 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:30] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 22:13:34,132 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000022B562CA590>
+2024-01-31 22:13:34,133 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000022B534688D0>
+2024-01-31 22:13:34,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-31 22:13:34,191 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-31 22:13:34,203 - INFO -  * Restarting with stat
+2024-01-31 22:13:34,803 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001F9CEA26990>
+2024-01-31 22:13:34,804 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001F9CE04A2D0>
+2024-01-31 22:13:34,815 - WARNING -  * Debugger is active!
+2024-01-31 22:13:34,830 - INFO -  * Debugger PIN: 977-922-265
+2024-01-31 22:13:38,200 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 22:13:38,442 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 22:13:38,445 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 22:13:38,451 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 22:13:38,460 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 22:13:38,854 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 22:13:38,876 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-31 22:13:45,682 - INFO - Acceso a la ruta /MariPulita
+2024-01-31 22:13:45,682 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:45] "GET /MariPulita HTTP/1.1" 200 -
