@@ -56,6 +56,10 @@ Estando dentro del entorno virtual del proyecto se procede a ejecutar el comando
         ```
 Este archivo _app.py_ define una aplicación web utilizando el framework Flask. Cuando se ejecuta python app.py, se inicializa la aplicación Flask llamada app. Esto implica que se configuran las rutas, se establecen las configuraciones de la aplicación, y se prepara la aplicación para manejar solicitudes web:
 
+        ```
+        http://127.0.0.1:5000/apidocs/
+        ```
+
 ![python app.py](/docs/img/app.png)
 
 Luego de haber ejecutado ese comando de inicialización vamos a la ruta web local de [Swagger](http://127.0.0.1:5000/apidocs/) para ver como se muestran las API´s creadas:

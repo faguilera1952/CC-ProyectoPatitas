@@ -28,8 +28,8 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 - El enlace proporcionado se podrá acceder al [Hito 4](docs/hitos/hito4/hito4.md), aqui se detalla el porque la elección de Jenkins como herramienta de integración continua para el proyecto en desarrollo asi como toda la configuración y ejecución del mismo.  
 
-## :network: Microservicios
+## :scroll: Microservicios
 
-- A continuación, en el siguiente enlace se podrá acceder al [Hito 5](docs/hitos/hito5/hito5.md) donde se detalla la elección de las herramientas para contener los microservicios y la lectura de logs de de estos servicios.
+- A continuación, en el siguiente enlace se podrá acceder al [Hito 5](docs/hitos/hito5/hito5.md) donde se detalla la elección y asi como la justificación de las herramientas para crear y ejecutar los microservicios, asi como la lectura de logs de de estos servicios.
 
 ![perrogato](/docs/img/perro_gato.png)
