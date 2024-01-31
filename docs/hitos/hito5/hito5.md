@@ -66,7 +66,9 @@ Luego de haber ejecutado ese comando de inicialización vamos a la ruta web loca
 
 ![apis](/docs/img/swagger1.png)
 
-Dentro de _apidocs_ podemos ver los métodos GET y POST creados.
+Dentro de _apidocs_ podemos ver los métodos GET y POST creados. Y el ejemplo de un método Get
+
+![get](/docs/img/get1.png)
 
 ## Registros de logs de las API´s
 

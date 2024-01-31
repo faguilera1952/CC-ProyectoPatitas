@@ -68,3 +68,8 @@
 2024-01-31 12:02:00,312 - INFO - 127.0.0.1 - - [31/Jan/2024 12:02:00] "GET /apispec_1.json HTTP/1.1" 200 -
 2024-01-31 12:12:55,245 - INFO - Acceso a la ruta /MariPulita
 2024-01-31 12:12:55,247 - INFO - 127.0.0.1 - - [31/Jan/2024 12:12:55] "GET /MariPulita HTTP/1.1" 200 -
+2024-01-31 14:15:29,833 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:29] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 14:15:29,967 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:29] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 14:15:29,972 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:29] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 14:15:30,261 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:30] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 14:15:30,552 - INFO - 127.0.0.1 - - [31/Jan/2024 14:15:30] "GET /apispec_1.json HTTP/1.1" 200 -
