@@ -72,7 +72,7 @@ Dentro de _apidocs_ podemos ver los métodos GET y POST creados. Y el ejemplo de
 
 ## Registros de logs de las API´s
 
-Se agrega la configuración de _logging_ a la aplicación Flask para que los registros se almacenen en un [archivo](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/app.log) que es generado y se guardo en el local del proyecto. Se importa la libreria _import logging_ en el archivo app.py
+Se agrega la configuración de _logging_ a la aplicación Flask para que los registros se almacenen en un [archivo](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/app.log) que es generado y se guardo en el local del proyecto. Se importa la libreria _import logging_ en el archivo app.py.
 
         ```
         # Configuración de logging para Flask
