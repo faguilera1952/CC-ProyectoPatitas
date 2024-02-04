@@ -92,3 +92,46 @@
 2024-01-31 22:13:38,876 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:38] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
 2024-01-31 22:13:45,682 - INFO - Acceso a la ruta /MariPulita
 2024-01-31 22:13:45,682 - INFO - 127.0.0.1 - - [31/Jan/2024 22:13:45] "GET /MariPulita HTTP/1.1" 200 -
+2024-02-01 18:58:02,490 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001E40AC7A950>
+2024-02-01 18:58:02,491 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001E407E888D0>
+2024-02-01 18:58:02,547 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-01 18:58:02,547 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-01 18:58:02,556 - INFO -  * Restarting with stat
+2024-02-01 18:58:03,159 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000002606F8EA8D0>
+2024-02-01 18:58:03,159 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000002606EF0A2D0>
+2024-02-01 18:58:03,173 - WARNING -  * Debugger is active!
+2024-02-01 18:58:03,184 - INFO -  * Debugger PIN: 977-922-265
+2024-02-01 18:58:06,799 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:06] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2024-02-01 18:58:07,020 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:07] "GET /apidocs/ HTTP/1.1" 200 -
+2024-02-01 18:58:07,198 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:07] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-01 18:58:07,292 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:07] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-01 18:58:07,378 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:07] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-01 18:58:07,764 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:07] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-01 18:58:08,044 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:08] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-02-01 18:58:08,058 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:08] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-01 18:58:26,394 - INFO - Búsqueda del animal: Vicenta
+2024-02-01 18:58:26,395 - INFO - 127.0.0.1 - - [01/Feb/2024 18:58:26] "GET /animals/search/Vicenta HTTP/1.1" 200 -
+2024-02-04 14:08:23,977 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000023BE4606A10>
+2024-02-04 14:08:23,978 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000023BE36D1710>
+2024-02-04 14:08:24,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-04 14:08:24,024 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-04 14:08:24,030 - INFO -  * Restarting with stat
+2024-02-04 14:08:24,577 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001FAB836AA10>
+2024-02-04 14:08:24,577 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001FAB78159D0>
+2024-02-04 14:08:24,588 - WARNING -  * Debugger is active!
+2024-02-04 14:08:24,595 - INFO -  * Debugger PIN: 977-922-265
+2024-02-04 14:08:34,486 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:34] "GET /apidocs/ HTTP/1.1" 200 -
+2024-02-04 14:08:34,726 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:34] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-04 14:08:34,811 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:34] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-04 14:08:34,968 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:34] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-04 14:08:35,274 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:35] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-04 14:08:35,462 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:35] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-02-04 14:08:35,503 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:35] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-04 14:08:40,813 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:40] "GET /apidocs/ HTTP/1.1" 200 -
+2024-02-04 14:08:40,853 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:40] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-04 14:08:40,855 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:40] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-04 14:08:40,872 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:40] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-04 14:08:40,876 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:40] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-04 14:08:41,206 - INFO - 127.0.0.1 - - [04/Feb/2024 14:08:41] "GET /apispec_1.json HTTP/1.1" 200 -
