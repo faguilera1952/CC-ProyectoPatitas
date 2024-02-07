@@ -151,3 +151,29 @@
 2024-02-04 14:16:32,280 - INFO - 127.0.0.1 - - [04/Feb/2024 14:16:32] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
 2024-02-04 14:16:32,395 - INFO - 127.0.0.1 - - [04/Feb/2024 14:16:32] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
 2024-02-04 14:16:32,407 - INFO - 127.0.0.1 - - [04/Feb/2024 14:16:32] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-07 22:55:21,138 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x00000211B114DDD0>
+2024-02-07 22:55:21,139 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x00000211ADB48A90>
+2024-02-07 22:55:21,187 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-07 22:55:21,187 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-07 22:55:21,196 - INFO -  * Restarting with stat
+2024-02-07 22:55:21,630 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001F16BA1D9D0>
+2024-02-07 22:55:21,630 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x000001F1683E8A90>
+2024-02-07 22:55:21,638 - WARNING -  * Debugger is active!
+2024-02-07 22:55:21,643 - INFO -  * Debugger PIN: 977-922-265
+2024-02-07 22:55:25,319 - INFO - 127.0.0.1 - - [07/Feb/2024 22:55:25] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-07 22:55:26,913 - INFO - 127.0.0.1 - - [07/Feb/2024 22:55:26] "[33mGET / HTTP/1.1[0m" 404 -
+2024-02-07 23:32:18,889 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000026A933EDE50>
+2024-02-07 23:32:18,890 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000026A8FE48A90>
+2024-02-07 23:32:18,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-07 23:32:18,932 - INFO - [33mPress CTRL+C to quit[0m
+2024-02-07 23:32:18,940 - INFO -  * Restarting with stat
+2024-02-07 23:32:19,417 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000019C996AD810>
+2024-02-07 23:32:19,417 - INFO - Nuevo animal agregado: <src.users.animal_profile.Animal object at 0x0000019C96058A90>
+2024-02-07 23:32:19,427 - WARNING -  * Debugger is active!
+2024-02-07 23:32:19,442 - INFO -  * Debugger PIN: 977-922-265
+2024-02-07 23:32:21,640 - INFO - Acceso a la ruta /MariPulita
+2024-02-07 23:32:21,641 - INFO - 127.0.0.1 - - [07/Feb/2024 23:32:21] "GET /MariPulita HTTP/1.1" 200 -
+2024-02-07 23:33:26,818 - INFO - Búsqueda del animal: MariPulita
+2024-02-07 23:33:26,821 - INFO - 127.0.0.1 - - [07/Feb/2024 23:33:26] "GET /animals/search/MariPulita HTTP/1.1" 200 -

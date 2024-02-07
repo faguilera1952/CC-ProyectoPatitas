@@ -28,3 +28,6 @@ jobs:
       - name: Tag y Push a GitHub Packages
         run: docker push cisquito/cc-proyectopatitas-tests:latest
 
+      - name: Docker Compose Up
+        run: docker-compose up
+

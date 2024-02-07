@@ -4,8 +4,8 @@ entidad:
   - src/users/animal_profile.py
 test:
   - test/test_profile.py
-  - test/test_docker.py  # Nueva prueba de integración
+  - test/test_docker.py
 fichero_tareas: 
   - tasks.py
 test-docker-compose:
-  - docker-compose -f docker-compose.yml up --abort-on-container-exit --build #probar esto, sino eliminar
+  - docker-compose -f docker-compose.yml up --abort-on-container-exit --build

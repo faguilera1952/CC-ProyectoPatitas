@@ -19,8 +19,6 @@ services:
       - "5000:5000"
     volumes:
       - .:/app
-    depends_on:
-      - db
     networks:
       - esta_mi_red
 
