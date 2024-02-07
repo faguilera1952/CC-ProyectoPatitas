@@ -28,6 +28,3 @@ jobs:
       - name: Tag y Push a GitHub Packages
         run: docker push cisquito/cc-proyectopatitas-tests:latest
 
-      #probar con esto, sino eliminar
-      - name: Ejecutar pruebas con codechecker
-        run: codechecker check -t test-docker-compose
