@@ -12,4 +12,5 @@ RUN pip install -r requirements.txt
 
 # Comando por defecto para ejecutar las pruebas unitarias y Flask
 #CMD ["pytest"]
-CMD ["cmd", "/S", "/C", "pytest && python app.py"]
+CMD ["python", "app.py"]
+

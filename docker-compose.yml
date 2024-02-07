@@ -24,7 +24,14 @@ services:
     networks:
       - esta_mi_red
 
+  api-test:
+    build: .
+    volumes:
+      - .:/app
+    command: ["pytest", "test/test_profile.py"]
+
 networks:
   esta_mi_red:
+
 
     
