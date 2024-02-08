@@ -21,5 +21,11 @@ services:
       - .:/app
     command: ["pytest", "test/test_profile.py"]
 
+  docker-test:
+    build: .
+    volumes:
+      - .:/app
+    command: ["pytest", "test_docker.py"]  
+
 networks:
   esta_mi_red:

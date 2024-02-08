@@ -63,6 +63,17 @@ A continuación el archivo [docker-compose.yml](https://github.com/faguilera1952
         # Define el comando que se ejecutará cuando se inicie el contenedor, en este caso "pytest test/test_profile.py".
         command: ["pytest", "test/test_profile.py"]
 
+        # Servicio "docker-test":
+    docker-test:
+        # Indica que la imagen del contenedor se construye en el directorio actual
+        build: .
+        # Define los volúmenes que se montarán en el contenedor
+        volumes:
+        # Monta el directorio actual (donde se encuentra el archivo docker-compose.yml) en el directorio /app dentro del contenedor
+        - .:/app
+        # Define el comando que se ejecutará cuando el contenedor se inicie. En este caso, ejecutará pytest con el archivo test_docker.py como argumento.
+        command: ["pytest", "test_docker.py"] 
+
         # Define una red llamada "esta_mi_red".
         networks:
     esta_mi_red:
@@ -72,3 +83,5 @@ A continuación el archivo [docker-compose.yml](https://github.com/faguilera1952
 ## Fichero para realizar pruebas de salud y funcionamiento
 
 Este fichero [test_docker.py](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/test/test_docker.py) se utiliza dentro de un contenedor para realizar pruebas automatizadas de salud y funcionamiento de la aplicación que se está ejecutando en el clúster de contenedores y para verificar que los contenedores del clúster se hayan levantado correctamente y que las rutas de la API Flask y de búsqueda estén respondiendo correctamente con un código de estado HTTP 200.
+
+![cluster](/docs/img/cluster.png)
