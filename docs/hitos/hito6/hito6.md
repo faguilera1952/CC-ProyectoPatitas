@@ -2,7 +2,7 @@
 
 ## Composición de servicios
 
-## Justificación de la estructura del cluster
+## Justificación de la estructura del clúster
 
 La estructura del clúster presentada en el archivo de configuración [docker-compose.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/docker-compose.yml) proporciona una organización clara y eficiente de los servicios y recursos necesarios para ejecutar y probar la aplicación. A continuación, se detalla la justificación de esta estructura:
 

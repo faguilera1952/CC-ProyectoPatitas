@@ -32,4 +32,8 @@ Este es el repositorio para el proyecto de la asignatura de Cloud Computing.
 
 - A continuación, en el siguiente enlace se podrá acceder al [Hito 5](docs/hitos/hito5/hito5.md) donde se detalla la elección y asi como la justificación de las herramientas para crear y ejecutar los microservicios, asi como la lectura de logs de de estos servicios.
 
+## :scroll: Composición de servicios
+
+- A continuación, en el siguiente enlace se podrá acceder al [Hito 6](docs/hitos/hito6/hito6.md) en donde se hace la justificación del clúster de contenedores utilizado. Además, se justifica el fichero de composición del clúster y también el fichero en donde se realizan las pruebas de salud y funcionamiento.
+
 ![perrogato](/docs/img/perro_gato.png)
