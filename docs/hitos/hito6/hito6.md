@@ -22,52 +22,52 @@ La estructura del clúster presentada en el archivo de configuración [docker-co
 
 A continuación el archivo [docker-compose.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/docker-compose.yml) orquesta y construye la aplicación _Patitas_. ste archivo de configuración de Docker Compose describe tres servicios (tests, app y api-test) que se ejecutarán como contenedores Docker. Cada servicio se define con su propia configuración de construcción, configuración de volumen, configuración de puerto y, en el caso de app, se conecta a una red llamada esta_mi_red. Entonces se detallará el significada de cada parámetro de la manera siguiente:
 
-´´´text
-    # Define la versión de la sintaxis de Docker Compose que se utilizará.
-version: '3'
+```text
+        # Define la versión de la sintaxis de Docker Compose que se utilizará.
+    version: '3'
 
-    # Define los servicios que se ejecutarán como parte del clúster de Docker.
-services:
+        # Define los servicios que se ejecutarán como parte del clúster de Docker.
+    services:
 
-    # Servicio "tests":
-  tests:
-    # Construye la imagen del contenedor utilizando el Dockerfile del directorio actual.
-    build: .
-    # Monta el directorio actual en el directorio "/app" dentro del contenedor.
-    volumes:
-      - .:/app
-    # Define el comando que se ejecutará cuando se inicie el contenedor, en este caso "pytest".
-    command: ["pytest"]
+        # Servicio "tests":
+    tests:
+        # Construye la imagen del contenedor utilizando el Dockerfile del directorio actual.
+        build: .
+        # Monta el directorio actual en el directorio "/app" dentro del contenedor.
+        volumes:
+        - .:/app
+        # Define el comando que se ejecutará cuando se inicie el contenedor, en este caso "pytest".
+        command: ["pytest"]
 
-    # Servicio "app":
-  app:
-    # Construye la imagen del contenedor utilizando el Dockerfile del directorio actual.
-    build: .
-    # Mapea el puerto 5000 del host al puerto 5000 del contenedor.
-    ports:
-      - "5000:5000"
-    # Monta el directorio actual en el directorio "/app" dentro del contenedor.
-    volumes:
-      - .:/app
-    # Conecta este servicio a la red llamada "esta_mi_red".
-  networks:
-      - esta_mi_red
-
-    # Servicio "api-test":
-  api-test:
-    # Construye la imagen del contenedor utilizando el Dockerfile del directorio actual.
-    build: .
-    # Monta el directorio actual en el directorio "/app" dentro del contenedor.
-    volumes:
-      - .:/app
-    # Define el comando que se ejecutará cuando se inicie el contenedor, en este caso "pytest test/test_profile.py".
-    command: ["pytest", "test/test_profile.py"]
-
-    # Define una red llamada "esta_mi_red".
+        # Servicio "app":
+    app:
+        # Construye la imagen del contenedor utilizando el Dockerfile del directorio actual.
+        build: .
+        # Mapea el puerto 5000 del host al puerto 5000 del contenedor.
+        ports:
+        - "5000:5000"
+        # Monta el directorio actual en el directorio "/app" dentro del contenedor.
+        volumes:
+        - .:/app
+        # Conecta este servicio a la red llamada "esta_mi_red".
     networks:
-  esta_mi_red:
+        - esta_mi_red
 
-´´´
+        # Servicio "api-test":
+    api-test:
+        # Construye la imagen del contenedor utilizando el Dockerfile del directorio actual.
+        build: .
+        # Monta el directorio actual en el directorio "/app" dentro del contenedor.
+        volumes:
+        - .:/app
+        # Define el comando que se ejecutará cuando se inicie el contenedor, en este caso "pytest test/test_profile.py".
+        command: ["pytest", "test/test_profile.py"]
+
+        # Define una red llamada "esta_mi_red".
+        networks:
+    esta_mi_red:
+
+```
 
 ## Fichero para realizar pruebas de salud y funcionamiento
 
