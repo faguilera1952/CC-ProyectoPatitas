@@ -1,10 +1,3 @@
-#version: '3'
-#services:
-  #tests:
-    #build: .
-    #volumes:
-      #- .:/app
-
 version: '3'
 services:
   tests:
@@ -30,6 +23,3 @@ services:
 
 networks:
   esta_mi_red:
-
-
-    
