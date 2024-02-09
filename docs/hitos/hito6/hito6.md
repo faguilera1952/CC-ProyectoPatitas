@@ -85,3 +85,5 @@ A continuación el archivo [docker-compose.yml](https://github.com/faguilera1952
 Este fichero [test_docker.py](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/test/test_docker.py) se utiliza dentro de un contenedor para realizar pruebas automatizadas de salud y funcionamiento de la aplicación que se está ejecutando en el clúster de contenedores y para verificar que los contenedores del clúster se hayan levantado correctamente y que las rutas de la API Flask y de búsqueda estén respondiendo correctamente con un código de estado HTTP 200.
 
 ![cluster](/docs/img/cluster.png)
+
+![docker](/docs/img/docker_7.png)
