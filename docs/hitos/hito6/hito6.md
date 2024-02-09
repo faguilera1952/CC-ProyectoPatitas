@@ -6,15 +6,15 @@
 
 La estructura del clúster presentada en el archivo de configuración [docker-compose.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/docker-compose.yml) proporciona una organización clara y eficiente de los servicios y recursos necesarios para ejecutar y probar la aplicación. A continuación, se detalla la justificación de esta estructura:
 
-- Servicios claramente definidos: Cada servicio en el clúster está claramente definido en el archivo de configuración. Esto facilita la comprensión de los diferentes componentes de la aplicación y sus responsabilidades.
+- Servicios definidos: Cada servicio en el clúster está claramente definido en el archivo de configuración [docker-compose.yml](https://github.com/faguilera1952/CC-ProyectoPatitas/blob/main/docker-compose.yml). Esto facilita la comprensión de los diferentes componentes de la aplicación y sus responsabilidades.
 
 - Reutilización de imágenes y volúmenes: Todos los servicios (tests, app, api-test) comparten la misma configuración de construcción y volúmenes. Esto promueve la reutilización de imágenes Docker y volúmenes de datos, lo que reduce la duplicación y simplifica la administración del clúster.
 
 - Gestión centralizada de volúmenes: Los volúmenes Docker están configurados para montar el directorio actual (.) en el contenedor en el directorio /app. Esto permite una gestión centralizada de los archivos de la aplicación y de las pruebas, lo que facilita el desarrollo y la ejecución de pruebas.
 
-- Separación de responsabilidades: Los servicios tests y api-test están dedicados a la ejecución de pruebas automatizadas utilizando el marco de pruebas pytest. Esta separación de responsabilidades garantiza que las pruebas se ejecuten de forma aislada y controlada, lo que facilita la identificación y resolución de problemas.
+- Separación de responsabilidades: Los servicios tests y api-test están dedicados a la ejecución de pruebas automatizadas utilizando el marco de pruebas _pytest_. Esta separación de responsabilidades garantiza que las pruebas se ejecuten de forma aislada y controlada, lo que facilita la identificación y resolución de problemas.
 
-- Exposición de puertos y redes: El servicio app expone el puerto 5000 y se conecta a la red esta_mi_red. Esto permite que la aplicación sea accesible desde el exterior a través del puerto 5000 y se comunique con otros servicios dentro de la misma red, si es necesario.
+- Exposición de puertos y redes: El servicio app expone el puerto _5000_ y se conecta a la red esta_mi_red. Esto permite que la aplicación sea accesible desde el exterior a través del puerto _5000_ y se comunique con otros servicios dentro de la misma red, si es necesario.
 
 - Definición de redes personalizadas: Se define una red personalizada llamada esta_mi_red para conectar los servicios app y api-test. Esto proporciona un entorno de red aislado y controlado para la comunicación entre los servicios, lo que mejora la seguridad y la robustez del clúster.
 
