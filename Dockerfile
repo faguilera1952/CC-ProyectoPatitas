@@ -10,6 +10,10 @@ COPY . /app
 # Instala las dependencias necesarias
 RUN pip install -r requirements.txt  
 
-# Comando por defecto para ejecutar Flask
-CMD ["python", "app.py"]
+# Comando por defecto para ejecutar las pruebas unitarias
+#CMD ["pytest"]
 
+# Comando por defecto para ejecutar Flask
+#CMD ["python", "app.py"]
+
+CMD ["sh", "-c", "pytest && python app.py"]
